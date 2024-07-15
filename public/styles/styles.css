@@ -1,0 +1,110 @@
+/* Global Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+/* Header Styles */
+.header-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 8px 40px;
+  width: 95vw;
+  position: fixed;
+}
+
+.logo {
+  height: 55px;
+}
+
+.nav-bar > ul {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5em;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.join-now {
+  background-color: #6eacd5;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 15px;
+}
+
+/* Hero Styles */
+.hero-div {
+  display: flex;
+  padding: 20px 100px;
+  background-image: url("Trading Courses Chart.jpg");
+  height: 600px;
+  color: white;
+  align-items: center;
+}
+
+.hero-div > h1 {
+  font-size: 60px;
+}
+
+.hero-div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 39, 93, 0.98);
+  padding: 30px 50px;
+  height: 36%;
+  width: 350px;
+  border-radius: 20px;
+}
+
+.hero-span {
+  font-size: 47px;
+}
+
+.hero-img {
+  grid-column: 2;
+  display: flex;
+}
+
+section {
+  height: 800px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  letter-spacing: -0.05rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
